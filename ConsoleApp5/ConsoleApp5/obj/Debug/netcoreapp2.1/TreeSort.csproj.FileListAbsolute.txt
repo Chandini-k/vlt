@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\TreeSort.deps.json
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\TreeSort.runtimeconfig.json
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\TreeSort.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\TreeSort.dll
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp2.1\TreeSort.pdb
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\TreeSort.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\TreeSort.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\TreeSort.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\TreeSort.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\TreeSort.dll
+C:\Users\Administrator\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp2.1\TreeSort.pdb

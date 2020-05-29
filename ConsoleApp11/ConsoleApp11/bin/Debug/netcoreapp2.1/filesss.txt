@@ -1,0 +1,90 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+namespace ShoppingData
+{
+    class prd
+    {
+        public string prdname { get; set; }
+        public int qty { get; set; }
+    }
+    class Shopping
+    {
+        static void Main(string[] args)
+        {
+            // string filename = Console.ReadLine();
+            //string[] lines=File.ReadAllLines("products.txt");
+            //List<string> lines = new List<string>();
+            //foreach(string line in readLines)
+            //{
+            //    string[] temp = line.Split(',');
+            //    List<Products> product = new List<Products>();
+            //    Products p1 = new Products();
+            //    p1.productName = temp[2];
+            //    p1.qty = Convert.ToInt32(temp[3]);
+            //    product.Add(p1);
+            //    //foreach (var item in product)
+            //    //{
+            //    //    Console.WriteLine(item.productName+ "   "+item.qty);
+            //    //    var uniqueprodnames = (from i in product
+            //    //                          select i.productName).Distinct();
+
+            //    //}
+            //    //File.WriteAllLines("outputfile1.csv", );
+            //    var result=from i in product 
+            //               group i by productName
+            //}
+            //Console.ReadLine();
+            string[] lines = File.ReadAllLines("products.txt");
+            List<string> validLines = new List<string>();
+            foreach (string line in lines)
+            {
+                //   Console.WriteLine(line);
+                string[] word = line.Split(',');
+                List<prd> objs = new List<prd>();
+                prd p1 = new prd();
+                p1.prdname = word[2];
+                p1.qty = Convert.ToInt32(word[3]);
+                objs.Add(p1);
+                foreach (var item in objs)
+                {
+                  
+                    var uniqueprdnames = (from i in objs
+                                          select i.prdname).Distinct();
+                    var res = from i in objs
+                              group i by i.prdname into f
+                              select new
+                              {
+                                  pname = f.Key,
+                                  AverageNumbers = f.Average(x => x.qty),
+                              };
+                    var occurencesCount =
+                        from i in objs
+                        group i by i.prdname into g
+                    select new { pname=g.Key, Count = g.Count() };
+                    //Console.WriteLine(uniqueprdnames);
+                    FileStream fs = new FileStream("outputfile.txt", FileMode.Append, FileAccess.Write);
+                    StreamWriter sw = new StreamWriter(fs);
+                    foreach (var r in res)
+                    {
+                        Console.WriteLine(r.pname + "," + r.AverageNumbers);
+                        sw.WriteLine(r.pname + "," + r.AverageNumbers);
+                    }
+                    sw.Flush();
+                    fs.Close();
+                    FileStream fs1 = new FileStream("outputfile1.txt", FileMode.Append, FileAccess.Write);
+                    StreamWriter st = new StreamWriter(fs1);
+                    foreach (var i in occurencesCount)
+                    {
+                        Console.WriteLine(i.pname + "," + i.Count);
+                        sw.WriteLine(i.pname + "," + i.Count);
+                    }
+                    Console.WriteLine("Content written to the File");
+                    Console.ReadLine();
+                }
+            }
+        }
+    }
+}

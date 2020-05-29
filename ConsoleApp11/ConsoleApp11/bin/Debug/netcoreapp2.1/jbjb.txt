@@ -1,0 +1,13 @@
+1).Net Core Web API – Dependency Injection
+2)   .Net Core Web Api – Routing
+3)   .Net Core Web Api – Swagger
+4)   .Net Core Web Api – CORS
+5)   .Net Core Web Api – Filters
+6)   .Net Core MVC
+7)   Global Error Handling in Web API
+8)   Entity Framework Core
+9)   Application Insights/SumoLogic/Log4Net – Logging
+10)   NUnit for Unit testing
+11)   IDE – VsCode/Visual Studio 2017/2019
+12)   SQL Server - Stored Procedures/Triggers/Functions/CTE
+13)   Git UI’s for Code CheckIn/Merges/Pulls

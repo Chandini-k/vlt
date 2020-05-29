@@ -1,0 +1,8 @@
+d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logomedium.gif HTTP/1.0" 200 786 
+d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.txt HTTP/1.0" 200 786 
+d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logomedium.gif HTTP/1.0" 200 786 
+d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786 
+d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logobig.gif HTTP/1.0" 200 786 
+d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.txt HTTP/1.0" 200 786 
+d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786 
+d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.txt HTTP/1.0" 200 786 

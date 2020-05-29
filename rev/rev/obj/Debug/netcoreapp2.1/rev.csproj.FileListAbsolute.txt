@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\rev\rev\bin\Debug\netcoreapp2.1\rev.deps.json
+C:\Users\Administrator\source\repos\rev\rev\bin\Debug\netcoreapp2.1\rev.runtimeconfig.json
+C:\Users\Administrator\source\repos\rev\rev\bin\Debug\netcoreapp2.1\rev.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\rev\rev\bin\Debug\netcoreapp2.1\rev.dll
+C:\Users\Administrator\source\repos\rev\rev\bin\Debug\netcoreapp2.1\rev.pdb
+C:\Users\Administrator\source\repos\rev\rev\obj\Debug\netcoreapp2.1\rev.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\rev\rev\obj\Debug\netcoreapp2.1\rev.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\rev\rev\obj\Debug\netcoreapp2.1\rev.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\rev\rev\obj\Debug\netcoreapp2.1\rev.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\rev\rev\obj\Debug\netcoreapp2.1\rev.dll
+C:\Users\Administrator\source\repos\rev\rev\obj\Debug\netcoreapp2.1\rev.pdb

@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\Reverse\Reverse\bin\Debug\netstandard2.0\Reverse.deps.json
+C:\Users\Administrator\source\repos\Reverse\Reverse\bin\Debug\netstandard2.0\Reverse.dll
+C:\Users\Administrator\source\repos\Reverse\Reverse\bin\Debug\netstandard2.0\Reverse.pdb
+C:\Users\Administrator\source\repos\Reverse\Reverse\obj\Debug\netstandard2.0\Reverse.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Reverse\Reverse\obj\Debug\netstandard2.0\Reverse.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Reverse\Reverse\obj\Debug\netstandard2.0\Reverse.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Reverse\Reverse\obj\Debug\netstandard2.0\Reverse.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Reverse\Reverse\obj\Debug\netstandard2.0\Reverse.dll
+C:\Users\Administrator\source\repos\Reverse\Reverse\obj\Debug\netstandard2.0\Reverse.pdb
